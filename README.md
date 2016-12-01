@@ -2,7 +2,7 @@
 
 > **NOTE:** This Sample App requires Titanium >= 5.5.0 and Alloy >= 1.9.0 (part of AppC CLI >=5.5.0). It demonstrates support iOS 10 and Xcode 8.
 
-<img src="docs/assets/screenshots.png" width="800" alt="iOS 10 SiriKit with Titanium" />
+<img src="docs/assets/screenshots.jpg" width="800" alt="iOS 10 SiriKit with Titanium" />
 
 For more information on native iOS extensions with Titanium, check out the [official tutorial](https://wiki.appcelerator.org/display/guides2/Creating+iOS+Extensions%3A+Siri+Intents).
 
