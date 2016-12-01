@@ -1,0 +1,6 @@
+/**
+ * Constructor
+ */
+(function constructor() {
+    
+})();

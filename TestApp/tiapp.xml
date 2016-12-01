@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+  <id>com.appc.testapp</id>
+  <name>TestApp</name>
+  <version>1.0.0</version>
+  <publisher>not specified</publisher>
+  <url>unspecified</url>
+  <description />
+  <copyright>not specified</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>true</analytics>
+  <guid>4027e6c2-c620-4b44-9bbb-ac4cc5a438d9</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
+  <ios>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <use-app-thinning>true</use-app-thinning>
+    <extensions>
+      <extension projectPath="extensions/TestApp/TestApp.xcodeproj">
+        <target name="testapp">
+          <provisioning-profiles>
+            <device>43115926-799c-4b80-9967-8c63110d94c5</device>
+            <dist-appstore />
+            <dist-adhoc />
+          </provisioning-profiles>
+        </target>
+      </extension>
+    </extensions>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <use-app-thinning>true</use-app-thinning>
+    <plist>
+      <dict>
+        <key>NSSiriUsageDescription</key>
+        <string>Send messages from your App using Siri</string>
+      </dict>
+    </plist>
+  </ios>
+  <android xmlns:android="http://schemas.android.com/apk/res/android" />
+  <deployment-targets>
+    <target device="ipad">true</target>
+    <target device="iphone">true</target>
+  </deployment-targets>
+  <sdk-version>6.0.0.GA</sdk-version>
+  <plugins>
+    <plugin version="1.0">ti.alloy</plugin>
+  </plugins>
+  <property name="appc-app-id" type="string">583fcd845f07b0d062eecc12</property>
+</ti:app>
