@@ -1,6 +1,8 @@
 # Titanium Sample App: iOS Extensions with SiriKit
 
-> **NOTE:** This Sample App requires Titanium >= 5.5.0 and Alloy >= 1.9.0 (part of AppC CLI >=5.5.0). It demonstrates support iOS 10 and Xcode 8.
+> **NOTE:** This Sample App requires Titanium >= 5.5.0 and Alloy >= 1.9.0 (part of AppC CLI >=5.5.0). It demonstrates support for iOS 10 and Xcode 8.
+
+> **NOTE2:** This example uses a SiriKit extension, but in fact any native extension can be used the same way!
 
 <img src="docs/assets/screenshot.jpg" width="800" alt="iOS 10 SiriKit with Titanium" />
 
