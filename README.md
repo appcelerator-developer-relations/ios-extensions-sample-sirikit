@@ -4,9 +4,9 @@
 
 > **NOTE2:** This example uses a SiriKit extension, but in fact any native extension can be used the same way!
 
-<img src="docs/assets/screenshot.jpg" width="800" alt="iOS 10 SiriKit with Titanium" />
+<img src=".github/screenshot.jpg" width="800" alt="iOS 10 SiriKit with Titanium" />
 
-For more information on native iOS extensions with Titanium, check out the [official tutorial](https://wiki.appcelerator.org/display/guides2/Creating+iOS+Extensions%3A+Siri+Intents).
+For more information on native iOS extensions with Titanium, check out the [official tutorial](https://docs.appcelerator.com/platform/latest/#!/guide/Creating_iOS_Extensions_-_Siri_Intents).
 
 ## Running the Sample
 
